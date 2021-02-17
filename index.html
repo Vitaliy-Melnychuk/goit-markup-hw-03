@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="header location">
+            <div class="muve location">
                 <nav class="nav location">
-                    <a href="index.html" class="logotype-studio hover-background">Web<span class="logotype-span-black">Studio</span></a>
+                    <a href="index.html" class="logotype-studio">Web<span class="logotype-span-black">Studio</span></a>
                     <ul class="nav-ul location">
                         <li><a href="index.html" class="nav-link hover-color currentLink">Студия</a></li>
                         <li><a href="portfolio.html" class="nav-link nav-portfolio hover-color">Портфолио</a></li>
@@ -28,8 +27,8 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="container hero">
+        <section class="hero">
+            <div class="container">
                 <h1 class="hero-title">Эффективные ришения<br/>для вашего бизнеса</h1>
                 <p><button class="hero-btn">Заказать услугу</button></p>
             </div>
@@ -38,7 +37,7 @@
         <section class="features">
             <div class="container">
                 <h2 class="features-title visually-hidden">Особенности</h2>
-                <ul class="location feature-list">
+                <ul class="location">
                     <li class="features-item">
                         <h3 class="features-item-title">Внимание к деталям</h3>
                         <p class="features-item-content">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -59,44 +58,44 @@
             </div>
         </section>
 
-        <section>
-            <div class="container work">
+        <section class="work">
+            <div class="container">
                 <h2 class="work-title">Чем мы занимаемся</h2>
                 <ul class="location">
                     <li>
-                        <img src="images/designing.jpg" alt="photo" width="370">
+                        <img src="images/designing.jpg" alt="Робочий стол" width="370">
                     </li>
                     <li class="work-item">
-                        <img src="images/realization.jpg" alt="photo" width="370">
+                        <img src="images/realization.jpg" alt="Телефон в ноутбуке" width="370">
                     </li>
                     <li>
-                        <img src="images/result.jpg" alt="photo" width="370">
+                        <img src="images/result.jpg" alt="Планшет" width="370">
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
-            <div class="container team">
+        <section class="team">
+            <div class="container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="location">
                     <li class="team-item">
-                        <img src="images/igor.jpg" alt="photo" width="270">
+                        <img src="images/igor.jpg" alt="Игорь" width="270">
                         <h3 class="team-item-title">Игорь Демьяненко</h3>
                         <p class="team-item-content">Product Designer</p>
                     </li>
                     <li class="team-item">
-                        <img src="images/olga.jpg" alt="photo" width="270">
+                        <img src="images/olga.jpg" alt="Ольга" width="270">
                         <h3 class="team-item-title">Ольга Репина</h3>
                         <p class="team-item-content">Frontend Developer</p>
                     </li>
                     <li class="team-item">
-                        <img src="images/mykola.jpg" alt="photo" width="270">
+                        <img src="images/mykola.jpg" alt="Николай" width="270">
                         <h3 class="team-item-title">Николай Тарасов</h3>
                         <p class="team-item-content">Marketing</p>
                     </li>
                     <li class="team-item">
-                        <img src="images/mykhailo.jpg" alt="photo" width="270">
+                        <img src="images/mykhailo.jpg" alt="Михаил" width="270">
                         <h3 class="team-item-title">Михаил Ермаков</h3>
                         <p class="team-item-content">UI Designer</p>
                     </li>
@@ -110,8 +109,8 @@
             <address class="footer-address">
                 <a href="#" class="footer-location hover-color">г. Киев, пр-т Леси Украинки, 26</a>
                 <ul class="footer-link">
-                    <li><a href="mailto:info@example.com" class="footer-item hover-color">info@example.com</a></li>
-                    <li class="footer-link-item"><a href="tel:+380991111111" class="footer-item hover-color">+38 099 111 11 11</a></li>
+                    <li class="footer-email"><a href="mailto:info@example.com" class="footer-item hover-color">info@example.com</a></li>
+                    <li class="footer-tel"><a href="tel:+380991111111" class="footer-item hover-color">+38 099 111 11 11</a></li>
                 </ul>
             </address>
         </div>

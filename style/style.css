@@ -24,6 +24,7 @@ a {
     --background-gray: #2F303A;
     --gray: #F5F4FA;
     --ligt-gray: rgba(255, 255, 255, 0.6);
+    --logo-color: #6305bb;
 }
 .visually-hidden {
     position: absolute;
@@ -37,10 +38,6 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.hover-background:hover, .hover-background:focus {
-    background-color: var(--blue-color);
-    color: var(--white-color);
-}
 .hover-color:hover, .hover-color:focus {
     color: var(--blue-color);
 }
@@ -53,12 +50,16 @@ a.currentLink {
  }
 .container {
     width: 1170px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
  }
 
 .header {
-    min-height: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-bottom: 1px solid #ECECEC;
+ }
+ .muve {
     justify-content: space-between;
  }
 .logotype-studio {
@@ -67,6 +68,11 @@ a.currentLink {
     line-height: 31px;
     color: var(--blue-color);
     margin-right: 94px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.logotype-studio:hover, .logotype-studio:focus {
+    color: var(--logo-color);
 }
 .logotype-span-black {
     color: #000000;
@@ -77,6 +83,8 @@ a.currentLink {
 .nav-link {
     font-weight: 500;
     color: var(--brand-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .nav-portfolio {
     margin-left: 50px;
@@ -85,16 +93,19 @@ a.currentLink {
 .header-email {
     font-weight: 500;
     color: var(--popular-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-tel {
     font-weight: 500;
     color: var(--popular-color);
     margin-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .hero {
-    padding-top: 200px;
-    min-height: 400px;
+    padding: 200px;
     background: var(--background-gray);
     text-align: center;
 }
@@ -115,9 +126,8 @@ a.currentLink {
     margin-top: 30px;
 }
 
-.feature-list {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.features {
+    padding: 94px 200px;
 }
 .features-item {
     width: 270px;
@@ -139,6 +149,8 @@ a.currentLink {
 .work {
     text-align: center;
     padding-bottom: 94px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .work-title {
     font-weight: bold;
@@ -153,8 +165,7 @@ a.currentLink {
 
 .team {
     background: var(--gray);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 200px;
     text-align: center;
 }
 .team-title {
@@ -183,8 +194,7 @@ a.currentLink {
 
 .footer {
     background: var(--background-gray);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 200px;
 }
 .footer-address {
     margin-top: 20px;
@@ -193,7 +203,7 @@ a.currentLink {
     line-height: 24px;
     color: var(--white-color);
 }
-.footer-link, .footer-link-item {
+.footer-link, .footer-tel {
     margin-top: 9px;
 }
 .footer-item {
@@ -201,12 +211,8 @@ a.currentLink {
     color: var(--ligt-gray);
 }
 
-.hr {
-    color: #ECECEC;
-}
 .projects {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 200px;
 }
 .project-filter {
     justify-content: center;
